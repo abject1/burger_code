@@ -1,0 +1,110 @@
+@import './media-queries';
+
+// ##################### //
+// ##### GENERIQUE ##### //
+// ##################### //
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body, html {
+    font-size: 1.4rem;
+    color: var(--text-100);
+    background-color: rgba(148, 148, 148, 0.75);
+    height: 100%;
+}
+
+// ################# //
+// ##### TITLE ##### //
+// ################# //
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: --fjalla;
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 2.2rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 1.8rem;
+}
+
+// ############################## //
+// ##### Liste / IMG / link ##### //
+// ############################## //
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a,
+li {
+    color: var(--text);
+    text-decoration: none;
+    font-family: --roboto-400-italic;
+}
+
+// ########################### //
+// ##### Second Attribut ##### //
+// ########################### //
+
+::placeholder {
+    font-family: --orbitron;
+    color: white;
+}
+
+// ############################### //
+// ##### FORMULAIRE SELECTOR ##### //
+// ############################### //
+
+input {
+    border: 2px solid var(--secondary);
+    border-radius: 5%;
+    background-color: var(--grey-50);
+    margin: 3rem;
+    padding: 1rem 1.5rem;
+}

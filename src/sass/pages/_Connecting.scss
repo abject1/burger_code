@@ -1,0 +1,21 @@
+#connecting {
+    background-color: var(--bg-300);
+    margin: 1.4rem;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        label {
+            margin: 0.8rem auto;
+        }
+        input {
+            margin: 0.4rem auto;
+        }
+    }
+}

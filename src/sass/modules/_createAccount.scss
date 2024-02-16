@@ -1,0 +1,23 @@
+#createAccount {
+    background-color: var(--bg-200);
+    margin: 1.4rem;
+    padding: 1.4rem;
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid black;
+        border-radius: 10px;
+        margin: 1rem;
+        padding: 0;
+        input {
+            &::placeholder {
+                text-align: center;
+            }
+        }
+    }    
+    a {
+        margin: auto 5rem;
+    }
+}

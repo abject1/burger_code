@@ -1,0 +1,16 @@
+#about{  
+    background-color: var(--bg-200);
+    margin: 1.2rem;
+    padding: 1.2rem;
+    border: 1px solid black;
+    border-radius: 10px;              
+    p {
+        text-align: center;
+        padding: 1.4rem;
+    }
+    .about-mid {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}                                              

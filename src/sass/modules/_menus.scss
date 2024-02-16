@@ -1,0 +1,13 @@
+#menus {
+    background-color: var(--bg-200);
+    margin: 1.4rem;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    img {
+        margin: 1.4rem auto;
+    }
+}

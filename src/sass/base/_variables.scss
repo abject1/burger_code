@@ -1,0 +1,75 @@
+:root {
+    // color
+    --secondary-100: #00acb5;
+        --secondary-200: #AAE3E2;
+        --primary-100: #AC7DD2;
+        --primary-200: #7c3b7c;
+        --text-100: #EEEEEE;
+        --text-200: #C5C5C5;
+        --bg-100: #222831;
+        --bg-200: #393E46;
+        --bg-300: #454e59;
+        --accent-red: #f52a4c;
+        --accent-burger-name: #f5b52a;
+        --grey: #aba9a9 !important;
+        --grey-50: #c5c0c0 !important;
+        --grey-100: #dfdada !important;
+
+    // box-shadows
+    --box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+        0 1px 3px 1px rgba(60, 64, 67, 0.15);
+
+    // ##### //
+    // fonts //
+    // ##### //
+
+    // Roboto
+
+    --roboto-900: 'Roboto-900', sans-serif 
+    --roboto-900-italic: 'Roboto-900-italic', sans-serif 
+    --roboto-700: 'Roboto-700', sans-serif 
+    --roboto-700-italic: 'Roboto-700-italic', sans-serif 
+    --roboto-500: 'Roboto-500', sans-serif 
+    --roboto-500-italic: 'Roboto-500-italic', sans-serif 
+    --roboto-400: 'Roboto-400', sans-serif 
+    --roboto-400-italic: 'Roboto-400-italic', sans-serif 
+    --roboto-300: 'Roboto-300', sans-serif 
+    --roboto-300-italic: 'Roboto-400-italic', sans-serif 
+    --roboto-100: 'Roboto-100', sans-serif 
+    --roboto-100-italic: 'Roboto-100-italic', sans-serif 
+    
+    // Arsenal 
+
+    --arsenal-700: 'Arsenal-700', sans-serif 
+    --arsenal-700-italic: 'Arsenal-700-italic', sans-serif 
+    --arsenal-regular: 'Arsenal-regular', sans-serif 
+    --arsenal-italic: 'Arsenal-italic', sans-serif 
+        
+    // Bree_Serif
+
+    --bree: 'Bree', sans-serif 
+        
+    // Fjalla
+
+    --fjalla: "FjallaOne", sans-serif 
+        
+    // Indie
+
+    --indie: "IndieFlower", sans-serif 
+        
+    // Lilita
+
+    --lilita: "LilitaOne", sans-serif 
+        
+    // Monoton
+
+    --monoton: "Monoton", sans-serif 
+        
+    // Orbitron
+
+    --orbitron: "Orbitron", sans-serif 
+        
+    // Russo
+
+    --russo: "Russo", sans-serif
+}

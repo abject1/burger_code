@@ -1,0 +1,69 @@
+// ################## //
+// ##### BUTTON ##### //
+// ################## //
+
+.btn {
+    display: block;
+    margin: 0.8rem auto;
+    padding: 0.6rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    border-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &-primary {
+        border: 2px solid #440111;
+        background-color: black;
+        color: white;
+    }
+
+    &-secondary {
+        border: 2px solid #440111;
+        background-color: rgb(219, 217, 217);
+        color: black;
+    }
+}
+
+// ##################### // 
+// ##### SEPARATOR ##### //
+// ##################### // 
+
+.separator {
+    display: block;
+    margin: 1.2rem auto 0.6rem auto;
+    min-height: 0.2rem;
+    max-width: 50vw;
+    opacity: 0.8;
+
+    &-primary {
+        background-color: black;
+    }
+
+    &-secondary {
+        background-color: white;
+    }
+}
+
+// ##################### //
+// ##### GENERIQUE ##### //
+// ##################### //
+
+.color-red {
+    color: var(--secondary);
+}
+
+.not-seen {
+    display: none;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.soon {
+    text-decoration: line-through;
+}
